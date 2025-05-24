@@ -4,7 +4,7 @@
 This project implements a remote keylogger written in Python. It captures keystrokes, takes periodic screenshots, collects basic system information (hostname, IP addresses, username, OS details), and periodically emails the data with optional screenshot attachments.
 
 The keylogger runs silently in the background, sending reports at defined intervals.
-[how it works](https://github.com/norb1x/Remote-keylogger/blob/main/screenshots/mail.png?raw=true)
+[how it works](https://github.com/norb1x/Remote-keylogger/blob/main/screenshots/mail.png)
 ---
 
 ## Features
@@ -15,7 +15,7 @@ The keylogger runs silently in the background, sending reports at defined interv
 - Sends data via email using Gmail SMTP.
 - Automatically deletes screenshots after sending to avoid clutter.
 - Runs as a background thread with configurable report intervals.
-[example](https://github.com/norb1x/Remote-keylogger/blob/main/screenshots/insidemail.png?raw=true)
+[example](https://github.com/norb1x/Remote-keylogger/blob/main/screenshots/insidemail.png)
 ---
 
 ## Requirements
